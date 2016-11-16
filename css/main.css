@@ -17,12 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.card-img img {
   display: block;
   width: 50px;
-}
-
-.card-img {
   margin: 0 auto 1rem;
 }
 
@@ -50,7 +47,7 @@ p {
   list-style-type: none;
 }
 
-ul li {
+.card {
   margin: 0;
   padding: 0;
 }
