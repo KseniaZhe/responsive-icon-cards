@@ -52,16 +52,23 @@ p {
   padding: 0;
 }
 
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
   .card-body,
   .card-img {
     display: inline-block;
+    vertical-align: top;
   }
 
   .card-body {
     text-align: left;
     width: 79.55%;
+
   }
 
   .card-img {
